@@ -1,0 +1,49 @@
+body{
+	font-size: 16px;
+	font-family: Arial;
+}
+h1{
+	margin: 0;
+}
+header{
+	background: lightgray;
+}
+.categorias{
+	background: blue;
+	display: inline-block;
+}
+.productos{
+	background: red;
+	display: inline-block;
+}
+.variado{
+	background: yellow;
+	display: inline-block;
+}
+.eslogan{
+	margin: 0;
+}
+.title{
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	border-right: white solid 1px;
+}
+.menu{
+	display: inline-block;
+	list-style: none;
+	vertical-align: top;
+	padding: 2em 0 0 1em;
+}
+.menu ul{
+	margin: 0;	
+	padding: 0;
+}
+.menu ul li{
+	display: inline-block;
+	padding-right: 1em;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
